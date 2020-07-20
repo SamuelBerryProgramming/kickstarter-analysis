@@ -4,7 +4,9 @@
 ## Analysis and Challenges
    #### Outcome Based on Launch Date
    First considered are the launch dates of theatre campaigns. Successful, failed, and canceled outcomes are counted in consideration of their launch month. Grouping the launch date by month is critical, if one were to group by a different part of the date the resulting graphic may not convey the relationship between outcome and launch date. 
-   
+   [Theatre Outcome Based on Launch Date](https://github.com/SamuelBerryProgramming/kickstarter-analysis/blob/master/Resources/Theater_Outcomes_vs_Launch.png)
    #### Outcome Based on Goal Amount
    Also scrutinized is the relationship between outcome and goal amount. Successful, failed, and canceled outcomes from the 'plays' subcategory are counted into 12 ranges, and the percentage of the outcomes are calculated. One may be tempted to attempt to draw all data from the original worksheet to make calculations for each column, but this increases likelyhood of error. It is best to draw the minimum amount of necessary information into the active worksheet and then perform the calculations locally. 
-   ##
+   [Percentage Successful vs Failed based on Goal Amount](https://github.com/SamuelBerryProgramming/kickstarter-analysis/blob/master/Resources/Outcomes_vs_Goals.png)
+##Results
+   Several conclusions may be drawn from this analysis. April through June is shown to be the best time of year for kickstarts in the theatre category. However, many more campaigns are held during this window resulting in increased competition and number of failures. The most successful range for goal amount is 5000 dollars and less. This conservative goal has been successful for about 74% of the kickstarts. It is worth noting that goals in the range of 35000 to 44999 dollars have also been successful for two thirds of play kickstarts. The scope of the dataset is limited to completed or canceled campaigns only, live campaigns have been excluded. The dataset for outcomes based on launch date was drawn from the theatre category. Also included in the theatre category are plays and and construction of theatre spaces, so the data may be skewed by the less related subcategory. Additional analysis of live campaigns and of campaigns that received time in Kickstarters spotlight is recommended. 
