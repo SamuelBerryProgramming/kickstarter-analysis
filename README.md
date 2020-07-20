@@ -1,2 +1,3 @@
-# kickstarter-analysis
-Analysis on Kickstarter Data to Reveal Trends
+# Analysis on Kickstarter Data to Reveal Trends
+##Purpose
+   
